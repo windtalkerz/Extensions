@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name = 'Extensions'
-s.version = '1.1.0'
+s.version = '1.1.2'
 s.license = 'MIT'
 s.summary = 'Extensions for swift'
 s.homepage = 'https://google.de'
