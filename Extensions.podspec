@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name = 'Extensions'
-s.version = '1.1.3'
+s.version = '1.1.4'
 s.license = 'MIT'
 s.summary = 'Extensions for swift'
 s.homepage = 'https://google.de'
@@ -13,6 +13,6 @@ s.platform     = :ios, "9.0"
 
 s.source_files  = "Extensions/Extensions/**/*.{h,m,swift}"
 
-#s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 end
