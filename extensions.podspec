@@ -18,7 +18,7 @@ s.license      = "MIT"
 s.platform     = :ios, "9.0"
 
 # s.source        = { :path => '.' } #local repo
-s.source       = { :git => "https://github.com/windtalkerz/extensions.git", :tag => "1.0.1" }
+s.source       = { :git => "https://github.com/windtalkerz/extensions.git", :tag => "1.0.2" }
 
 s.source_files  = "Extensions/Extensions", "Extensions/Extensions/**/*.{h,m,swift}"
 
