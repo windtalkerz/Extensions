@@ -9,7 +9,8 @@ s.social_media_url = 'http://twitter.com/'
 s.author  = { "windtalkerz" => "windtalkerz@me.com" }
 s.source = { :git => 'https://github.com/windtalkerz/Extensions.git', :tag => s.version }
 
-s.ios.deployment_target = '9.0'
+#s.ios.deployment_target = '9.0'
+s.platform     = :ios, "9.0"
 
 s.source_files  = "Extensions/Extensions/**/*.{h,m,swift}"
 
