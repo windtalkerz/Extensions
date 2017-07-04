@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Extensions"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
 s.summary      = "Extensions for swift"
 
 
@@ -129,6 +129,6 @@ s.homepage     = "http://raywenderlich.com"
   # s.dependency "JSONKit", "~> 1.4"
 
 
-#s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 end
